@@ -30,12 +30,13 @@ Please refer to it for all the hyperparameters under output.
 
    > Ckiptagger 
    > https://github.com/ckiplab/ckiptagger 
-   > * data_utils.download_data_gdown("./") 
-   > * this is the ckipdata specified in main.py arguments 
+       
+          # this is the ckipdata specified in main.py arguments 
+          data_utils.download_data_gdown("./") 
 
  ### **2. Usage:**
    #### default setting
-   ```py
+   ```bat
     python3 main.py --input=./aicup_dataset/Train_qa_ans_.json 
         --ckipdata=./ckipdata 
         --cwngit=./CwnGraph 
@@ -47,4 +48,5 @@ Please refer to it for all the hyperparameters under output.
         --alpha_rs=0.1  # random swap
         --alpha_rd=0.1  # random deletion
         --seed=0        # recommend 1126 lol 
-        --save_synonyms=0 # if you want to output a synoym dictionary of the synoyms searched or used, turn it to 1
+        --save_synonyms=0 # if you want to output a synoym dictionary of the synoyms searched or used, turn it to 1 
+    
