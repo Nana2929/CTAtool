@@ -11,7 +11,7 @@ Please refer to it for all the hyperparameters under output.
 
   > * main.py: read in and write out files, feel free to customize it on your own
   > * functions.py: the 4 synonym_replacement, random_insertion, random_deletion, random_swap functions and the gen_eda function that utilizes them all, given the alpha parameters 
-  > #### warning: the synonym_replacement is a coarse attempt and may need to be heavily revised if you want a more refined result
+  >> #### warning: the synonym_replacement is a coarse attempt and may need to be heavily revised if you want a more refined result
   > * cache.py: cache the Chinese Wordnet model's lemmas and the corresponding synonym list for later use (because the lemma search is O(n))
 
 
