@@ -48,4 +48,3 @@ Please refer to it for all the hyperparameters under output.
         --alpha_rd=0.1  # random deletion
         --seed=0        # recommend 1126 lol 
         --save_synonyms=0 # if you want to output a synoym dictionary of the synoyms searched or used, turn it to 1
-        
