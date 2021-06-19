@@ -17,10 +17,13 @@ Please refer to it for all the hyperparameters under output.
 
  ### **1. For first use: download the necessary data**
 
-  > Chinese Wordnet (CWN)
+  > Chinese Wordnet (CWN):
+  > 
   > https://github.com/lopentu/CwnGraph
-  > * download cwn_graph.pyobj at https://drive.google.com/file/d/1opGRw490cAizoj2JHzR8UIZME3Mc65Ze/view  (cwn_py arg)
-  > * download the GitHub itself. you can git clone it with: (cwngit arg)
+  > * download cwn_graph.pyobj at https://drive.google.com/file/d/1opGRw490cAizoj2JHzR8UIZME3Mc65Ze/view 
+  >  (this is the cwn_py specified in main.py arguments)
+  > * download the GitHub itself. you can git clone it with:
+  >  (this is the cwngit specified in main.py arguments)
 
           #(shell) 
           git clone https://github.com/lopentu/CwnGraph
@@ -28,10 +31,12 @@ Please refer to it for all the hyperparameters under output.
           !git clone https://github.com/lopentu/CwnGraph
 
 
-   > Ckiptagger 
+   > Ckiptagger:
+   > 
    > https://github.com/ckiplab/ckiptagger 
+   >  (this is the ckipdata specified in main.py arguments)
        
-          # this is the ckipdata specified in main.py arguments 
+      
           data_utils.download_data_gdown("./") 
 
  ### **2. Usage:**
