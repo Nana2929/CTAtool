@@ -1,5 +1,5 @@
 '''
-Cached words with lemmas that have been looked up before
+Caching words with lemmas that have been looked up before
 Use a dictionary lookup if the word is in cache_dict
 else find the word and add it into the cache_dict
 '''
